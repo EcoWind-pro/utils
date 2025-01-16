@@ -8,5 +8,6 @@ enum class TokenMessages(val message: String) {
     ACCESS_TOKEN_IS_EXPIRED("Access token is already expired"),
     ACCESS_TOKEN_NOT_VALID("Access token is not valid"),
 
-    REFRESH_TOKEN_IS_EXPIRED("Refresh token is already expired")
+    REFRESH_TOKEN_IS_EXPIRED("Refresh token is already expired"),
+    REFRESH_TOKEN_NOT_VALID("Refresh token is not valid")
 }
